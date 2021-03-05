@@ -29,14 +29,14 @@
  * GPIO pins. 
  */
 /* Defined by board */
-#define BTN1            13 // Button start.
-#define BTN2            14  
-#define BTN3            15  
-#define BTN4            16 // Button stop.
-#define LED1            30 // Green
-#define LED2            31 // Blue
-#define LED3            22 // Red
-#define LED4            14 // Red
+#define BTN1           13U // Button start.
+#define BTN2           14U
+#define BTN3           15U
+#define BTN4           16U 
+#define LED1           30U // Green
+#define LED2           31U // Blue
+#define LED3           22U // Red
+#define LED4           14U // Red
 #define UART_RTS        5U
 #define UART_TX         6U
 #define UART_CTS        7U
