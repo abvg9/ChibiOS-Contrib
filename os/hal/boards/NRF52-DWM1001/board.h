@@ -33,10 +33,10 @@
 //#define BTN2           14U
 //#define BTN3           15U
 //#define BTN4           16U
-//#define LED1           30U // Green
-#define LED2           31U // D9 blue
-//#define LED3           22U // Red
-#define LED4           14U // D12 red
+#define GREEN_LED_D9     30U
+#define BLUE_LED_D10     31U
+#define RED_LED_D11      22U
+#define RED_LED_D12      14U
 //#define UART_RTS        5U
 //#define UART_TX         6U
 //#define UART_CTS        7U
@@ -72,10 +72,10 @@
 //#define IOPORT1_BTN2           14U
 //#define IOPORT1_BTN3           15U
 //#define IOPORT1_BTN4           16U
-//#define IOPORT1_LED1           17U
-#define IOPORT1_LED2           31U
-//#define IOPORT1_LED3           19U
-#define IOPORT1_LED4           14U
+#define IOPORT1_GREEN_LED_D9   30U
+#define IOPORT1_BLUE_LED_D10   31U
+#define IOPORT1_RED_LED_D11    22U
+#define IOPORT1_RED_LED_D12    14U
 //#define IOPORT1_UART_RTS        5U
 //#define IOPORT1_UART_TX         6U
 //#define IOPORT1_UART_CTS        7U
@@ -112,9 +112,9 @@
 //#define LINE_BTN2      PAL_LINE(IOPORT1, IOPORT1_BTN2)
 //#define LINE_BTN3      PAL_LINE(IOPORT1, IOPORT1_BTN3)
 //#define LINE_BTN4      PAL_LINE(IOPORT1, IOPORT1_BTN4)
-//#define LINE_LED1      PAL_LINE(IOPORT1, IOPORT1_LED1)
+#define LINE_LED1      PAL_LINE(IOPORT1, IOPORT1_LED1)
 #define LINE_LED2      PAL_LINE(IOPORT1, IOPORT1_LED2)
-//#define LINE_LED3      PAL_LINE(IOPORT1, IOPORT1_LED3)
+#define LINE_LED3      PAL_LINE(IOPORT1, IOPORT1_LED3)
 #define LINE_LED4      PAL_LINE(IOPORT1, IOPORT1_LED4)
 //#define LINE_UART_RTS  PAL_LINE(IOPORT1, IOPORT1_UART_RTS)
 //#define LINE_UART_TX   PAL_LINE(IOPORT1, IOPORT1_UART_TX)

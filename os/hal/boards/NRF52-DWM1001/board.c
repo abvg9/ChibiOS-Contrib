@@ -40,7 +40,7 @@ const PALConfig pal_default_config =
         PAL_MODE_UNCONNECTED,         /* P0.11                 */
         PAL_MODE_UNCONNECTED,         /* P0.12                 */
         PAL_MODE_INPUT_PULLUP,        /* P0.13                 */
-        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.14: LED4 red       */
+        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.14: RED_LED_D12    */
         PAL_MODE_INPUT_PULLUP,        /* P0.15                 */
         PAL_MODE_INPUT_PULLUP,        /* P0.16                 */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.17                 */
@@ -48,7 +48,7 @@ const PALConfig pal_default_config =
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.19                 */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.20                 */
         PAL_MODE_UNCONNECTED,         /* P0.21                 */
-        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.22a                */
+        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.22a RED_LED_D11    */
         PAL_MODE_INPUT_PULLUP,        /* P0.23a                */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.24a                */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.25a                */
@@ -56,8 +56,8 @@ const PALConfig pal_default_config =
         PAL_MODE_OUTPUT_OPENDRAIN,    /* P0.27a                */
         PAL_MODE_UNCONNECTED,         /* P0.28                 */
         PAL_MODE_UNCONNECTED,         /* P0.29                 */
-        PAL_MODE_UNCONNECTED,         /* P0.30                 */
-        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.31: LED2 blue      */
+        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.30  GREEN_LED_D9   */
+        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.31: BLUE_LED_D10   */
   },
 };
 #endif
