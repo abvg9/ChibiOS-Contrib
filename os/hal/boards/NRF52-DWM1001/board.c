@@ -28,7 +28,7 @@ const PALConfig pal_default_config =
   .pads = {
         PAL_MODE_UNCONNECTED,         /* P0.0                  */
         PAL_MODE_UNCONNECTED,         /* P0.1                  */
-        PAL_MODE_UNCONNECTED,         /* P0.2                  */
+        PAL_MODE_INPUT_PULLUP,        /* P0.2   SW2            */
         PAL_MODE_UNCONNECTED,         /* P0.3                  */
         PAL_MODE_UNCONNECTED,         /* P0.4                  */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.5                  */
@@ -40,14 +40,14 @@ const PALConfig pal_default_config =
         PAL_MODE_UNCONNECTED,         /* P0.11                 */
         PAL_MODE_UNCONNECTED,         /* P0.12                 */
         PAL_MODE_INPUT_PULLUP,        /* P0.13                 */
-        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.14: RED_LED_D12    */
+        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.14  RED_LED_D12    */
         PAL_MODE_INPUT_PULLUP,        /* P0.15                 */
         PAL_MODE_INPUT_PULLUP,        /* P0.16                 */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.17                 */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.18                 */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.19                 */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.20                 */
-        PAL_MODE_UNCONNECTED,         /* P0.21                 */
+        PAL_MODE_INPUT_PULLUP,        /* P0.21  SW2            */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.22a RED_LED_D11    */
         PAL_MODE_INPUT_PULLUP,        /* P0.23a                */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.24a                */
@@ -57,7 +57,7 @@ const PALConfig pal_default_config =
         PAL_MODE_UNCONNECTED,         /* P0.28                 */
         PAL_MODE_UNCONNECTED,         /* P0.29                 */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.30  GREEN_LED_D9   */
-        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.31: BLUE_LED_D10   */
+        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.31  BLUE_LED_D10   */
   },
 };
 #endif

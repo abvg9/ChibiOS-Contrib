@@ -29,10 +29,8 @@
  * GPIO pins.
  */
 /* Defined by board */
-//#define BTN1           13U // Button start.
-//#define BTN2           14U
-//#define BTN3           15U
-//#define BTN4           16U
+#define SW1              21U
+#define SW2              02U
 #define GREEN_LED_D9     30U
 #define BLUE_LED_D10     31U
 #define RED_LED_D11      22U
@@ -68,10 +66,8 @@
  * IO pins assignments.
  */
 /* Defined by board */
-//#define IOPORT1_BTN1           13U
-//#define IOPORT1_BTN2           14U
-//#define IOPORT1_BTN3           15U
-//#define IOPORT1_BTN4           16U
+#define IOPORT1_SW1            21U
+#define IOPORT1_SW2            02U
 #define IOPORT1_GREEN_LED_D9   30U
 #define IOPORT1_BLUE_LED_D10   31U
 #define IOPORT1_RED_LED_D11    22U
@@ -108,10 +104,8 @@
  * IO lines assignments.
  */
 /* Board defined */
-//#define LINE_BTN1      PAL_LINE(IOPORT1, IOPORT1_BTN1)
-//#define LINE_BTN2      PAL_LINE(IOPORT1, IOPORT1_BTN2)
-//#define LINE_BTN3      PAL_LINE(IOPORT1, IOPORT1_BTN3)
-//#define LINE_BTN4      PAL_LINE(IOPORT1, IOPORT1_BTN4)
+#define LINE_SW1              PAL_LINE(IOPORT1, IOPORT1_SW1)
+#define LINE_SW2              PAL_LINE(IOPORT1, IOPORT1_SW2)
 #define LINE_GREEN_LED_D9     PAL_LINE(IOPORT1, IOPORT1_GREEN_LED_D9)
 #define LINE_BLUE_LED_D10     PAL_LINE(IOPORT1, IOPORT1_BLUE_LED_D10)
 #define LINE_RED_LED_D11      PAL_LINE(IOPORT1, IOPORT1_RED_LED_D11)
