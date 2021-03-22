@@ -23,7 +23,15 @@
 
 /* Board oscillators-related settings. */
 #define NRF5_XTAL_VALUE        32000000
-#define NRF5_LFCLK_SOURCE      1
+#define NRF5_HFCLK_SOURCE      NRF5_HFCLK_HFXO
+#define NRF5_LFCLK_SOURCE      NRF5_LFCLK_XTAL
+
+#define NRF5_HFCLK_HFINT       0
+#define NRF5_HFCLK_HFXO        1
+
+#define NRF5_LFCLK_RC          0
+#define NRF5_LFCLK_XTAL        1
+#define NRF5_LFCLK_SYNTH       2
 
 /*
  * GPIO pins.
