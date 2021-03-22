@@ -29,11 +29,11 @@ const PALConfig pal_default_config =
         PAL_MODE_UNCONNECTED,         /* P0.0                  */
         PAL_MODE_UNCONNECTED,         /* P0.1                  */
         PAL_MODE_INPUT_PULLUP,        /* P0.2   SW2            */
-        PAL_MODE_UNCONNECTED,         /* P0.3                  */
-        PAL_MODE_UNCONNECTED,         /* P0.4                  */
+        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.3   SPI_SS         */
+        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.4   SPI_CLK        */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.5                  */
-        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.6                  */
-        PAL_MODE_INPUT_PULLUP,        /* P0.7                  */
+        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.6   SPI_MOSI       */
+        PAL_MODE_INPUT_PULLUP,        /* P0.7   SPI_MISO       */
         PAL_MODE_INPUT_PULLUP,        /* P0.8                  */
         PAL_MODE_UNCONNECTED,         /* P0.9                  */
         PAL_MODE_UNCONNECTED,         /* P0.10                 */

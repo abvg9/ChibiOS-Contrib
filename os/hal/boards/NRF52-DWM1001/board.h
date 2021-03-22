@@ -45,10 +45,10 @@
 //#define I2C_SDA        26U
 
 /* Our definitions */
-//#define SPI_SCK        25U
-//#define SPI_MOSI       24U
-//#define SPI_MISO       23U
-//#define SPI_SS         22U
+#define SPI_SCK          04U
+#define SPI_MOSI         06U
+#define SPI_MISO         07U
+#define SPI_SS           03U
 
 /* Analog input */
 //#define AIN0            2U
@@ -83,10 +83,10 @@
 //#define IOPORT1_RESET          21U
 
 /* Our definitions */
-//#define IOPORT1_SPI_SCK        25U
-//#define IOPORT1_SPI_MOSI       24U
-//#define IOPORT1_SPI_MISO       23U
-//#define IOPORT1_SPI_SS         22U
+#define IOPORT1_SPI_SCK        04U
+#define IOPORT1_SPI_MOSI       06U
+#define IOPORT1_SPI_MISO       07U
+#define IOPORT1_SPI_SS         03U
 
 /* Analog inpupt */
 //#define IOPORT1_AIN0            2U
@@ -120,10 +120,10 @@
 //#define LINE_I2C_SDA   PAL_LINE(IOPORT1, IOPORT1_I2C_SDA)
 
 /* Our definitions */
-//#define LINE_SPI_SCK   PAL_LINE(IOPORT1, IOPORT1_SPI_SCK)
-//#define LINE_SPI_MOSI  PAL_LINE(IOPORT1, IOPORT1_SPI_MOSI)
-//#define LINE_SPI_MISO  PAL_LINE(IOPORT1, IOPORT1_SPI_MISO)
-//#define LINE_SPI_SS    PAL_LINE(IOPORT1, IOPORT1_SPI_SS)
+#define LINE_SPI_SCK   PAL_LINE(IOPORT1, IOPORT1_SPI_SCK)
+#define LINE_SPI_MOSI  PAL_LINE(IOPORT1, IOPORT1_SPI_MOSI)
+#define LINE_SPI_MISO  PAL_LINE(IOPORT1, IOPORT1_SPI_MISO)
+#define LINE_SPI_SS    PAL_LINE(IOPORT1, IOPORT1_SPI_SS)
 
 /* Analog line */
 //#define LINE_AIN0      PAL_LINE(IOPORT1, IOPORT1_AIN0)
