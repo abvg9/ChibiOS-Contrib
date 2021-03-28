@@ -38,7 +38,7 @@
  */
 /* Defined by board */
 #define SW1              21U
-#define SW2              02U
+#define SW2               2U
 #define GREEN_LED_D9     30U
 #define BLUE_LED_D10     31U
 #define RED_LED_D11      22U
@@ -53,10 +53,10 @@
 //#define I2C_SDA        26U
 
 /* Our definitions */
-#define SPI_SCK          04U
-#define SPI_MOSI         06U
-#define SPI_MISO         07U
-#define SPI_SS           03U
+#define SPI_SCK          16U
+#define SPI_MOSI         20U
+#define SPI_MISO         18U
+#define SPI_SS           17U
 
 /* Analog input */
 //#define AIN0            2U
@@ -75,7 +75,7 @@
  */
 /* Defined by board */
 #define IOPORT1_SW1            21U
-#define IOPORT1_SW2            02U
+#define IOPORT1_SW2             2U
 #define IOPORT1_GREEN_LED_D9   30U
 #define IOPORT1_BLUE_LED_D10   31U
 #define IOPORT1_RED_LED_D11    22U
@@ -91,10 +91,10 @@
 //#define IOPORT1_RESET          21U
 
 /* Our definitions */
-#define IOPORT1_SPI_SCK        04U
-#define IOPORT1_SPI_MOSI       06U
-#define IOPORT1_SPI_MISO       07U
-#define IOPORT1_SPI_SS         03U
+#define IOPORT1_SPI_SCK        16U
+#define IOPORT1_SPI_MOSI       20U
+#define IOPORT1_SPI_MISO       18U
+#define IOPORT1_SPI_SS         17U
 
 /* Analog inpupt */
 //#define IOPORT1_AIN0            2U
