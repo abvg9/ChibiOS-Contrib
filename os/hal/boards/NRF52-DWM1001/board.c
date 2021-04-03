@@ -50,7 +50,7 @@ const PALConfig pal_default_config =
         PAL_MODE_INPUT_PULLUP,        /* P0.21  SW2            */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.22a RED_LED_D11    */
         PAL_MODE_UNCONNECTED,         /* P0.23a                */
-        PAL_MODE_UNCONNECTED,         /* P0.24a                */
+        PAL_MODE_OUTPUT_PUSHPULL,     /* P0.24a DW_RST         */
         PAL_MODE_UNCONNECTED,         /* P0.25a                */
         PAL_MODE_UNCONNECTED,         /* P0.26a                */
         PAL_MODE_UNCONNECTED,         /* P0.27a                */
