@@ -45,7 +45,7 @@ const PALConfig pal_default_config =
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.16  SPI_CLK        */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.17  SPI_SS         */
         PAL_MODE_INPUT_PULLUP,        /* P0.18  SPI_MISO       */
-        PAL_MODE_UNCONNECTED,         /* P0.19                 */
+        PAL_MODE_INPUT_PULLUP,        /* P0.19  DW_IRQ         */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.20  SPI_MOSI       */
         PAL_MODE_INPUT_PULLUP,        /* P0.21  SW2            */
         PAL_MODE_OUTPUT_PUSHPULL,     /* P0.22a RED_LED_D11    */
