@@ -67,8 +67,7 @@ const PALConfig pal_default_config =
  * @details This initialization is performed just after reset before BSS and
  *          DATA segments initialization.
  */
-void __early_init(void)
-{
+void __early_init(void) {
 }
 
 /**
